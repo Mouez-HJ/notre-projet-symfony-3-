@@ -1,0 +1,19 @@
+fond_annonce_annonce:
+    resource: "@FONDAnnonceBundle/Controller/AnnonceController.php"
+    type:     annotation
+
+fond_annonce:
+    resource: "@FONDAnnonceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+fond_user_formulaire:
+    resource: "@FONDUserBundle/Controller/FormulaireController.php"
+    type:     annotation
+
+fond_user:
+    resource: "@FONDUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
